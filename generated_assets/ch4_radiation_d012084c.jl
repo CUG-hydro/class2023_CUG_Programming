@@ -17,7 +17,7 @@ end
 # ╔═╡ fd79cce0-510f-11ec-2d74-fdc670099c49
 @time begin
 	using Pkg
-	Pkg.activate("../../pluto-deployment-environment")
+	# Pkg.activate("../../pluto-deployment-environment")
 	# Pkg.add("PlutoUI")
 	using PlutoUI
 	using Plots
