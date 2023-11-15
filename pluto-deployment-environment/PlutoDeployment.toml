@@ -9,6 +9,7 @@ create_index = false
 exclude = [
     # these are in the repo but not used on the website
     "tools/*",
+    "*/backup/*",
     "PlutoPages.jl",
 ]
 
@@ -19,9 +20,8 @@ exclude=[
     # these are in the repo but not used on the website
     "tools/*",
     "PlutoPages.jl",
-    
+    "*/backup/*",
     # notebooks not interactive
-
     # don't run homeworks
     "*/hw*.jl",
 ]
