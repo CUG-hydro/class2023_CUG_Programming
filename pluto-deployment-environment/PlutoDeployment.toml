@@ -10,6 +10,7 @@ exclude = [
     # these are in the repo but not used on the website
     "tools/*",
     "*/backup/*",
+    "src/climate_science/backup/*",
     "PlutoPages.jl",
 ]
 
@@ -21,6 +22,7 @@ exclude=[
     "tools/*",
     "PlutoPages.jl",
     "*/backup/*",
+    "src/climate_science/backup/*",
     # notebooks not interactive
     # don't run homeworks
     "*/hw*.jl",
