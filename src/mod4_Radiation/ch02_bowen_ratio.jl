@@ -1,6 +1,16 @@
 ### A Pluto.jl notebook ###
 # v0.19.32
 
+#> [frontmatter]
+#> image = "https://user-images.githubusercontent.com/6933510/136199718-ff811eb3-aad6-4d6b-99e0-f6bf922816b4.png"
+#> order = 4
+#> chapter = 4
+#> section = 1
+#> title = "Bowen Ratio"
+#> layout = "layout.jlhtml"
+#> description = ""
+#> tags = ["lecture", "module4", "Bowen"]
+
 using Markdown
 using InteractiveUtils
 
