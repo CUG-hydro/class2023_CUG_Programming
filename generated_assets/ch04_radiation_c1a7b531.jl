@@ -9,7 +9,7 @@
 #> title = "Radiation"
 #> layout = "layout.jlhtml"
 #> description = ""
-#> tags = ["lecture", "module4", "Radiation"]
+#> tags = ["lecture", "ch02", "Radiation"]
 
 using Markdown
 using InteractiveUtils

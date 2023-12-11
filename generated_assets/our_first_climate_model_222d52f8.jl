@@ -28,7 +28,7 @@ end
 
 # ╔═╡ c7d387fa-cd19-458c-a45d-7893e8c21bbf
 begin
-    using DifferentialEquations
+  using DifferentialEquations
 	using Plots, PlutoUI
 	using LinearAlgebra
 	using CSV, DataFrames
