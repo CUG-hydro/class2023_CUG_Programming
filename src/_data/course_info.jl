@@ -2,7 +2,7 @@ Dict(
   "course_name" => "2023CUG水文气象学",
   "course_subtitle" => "",
   "code" => "",
-  "semester" => "Fall 2023",
+  "semester" => "2023秋季学期",
   "authors" => [
     "Dongdong Kong" => "https://github.com/kongdd",
     # "Second author name" => "second author homepage link"
