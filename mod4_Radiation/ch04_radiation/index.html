@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="en">
 <head>
 
-<title>Working locally — 2023CUG水文气象学 </title>
-
+<title>Radiation — 2023CUG水文气象学 </title>
+<meta name="description" content='' />
 
 <link rel="root" href="../.." />
 
@@ -84,7 +84,7 @@ window.pluto_preamble_html = undefined;
 <li>
 <h3>Module 1: Website setup</h3>
 <ul>
-<li class=' lecture tag_module1 tag_track_setup tag_teaching tag_repository_structure'><a href='../../mod1_setup_website/getting_started/'><span class="entry-number">1.1</span> Getting started</a></li><li class=' lecture tag_module1 tag_track_setup tag_teaching tag_metadata'><a href='../../mod1_setup_website/basic_info/'><span class="entry-number">1.2</span> Fill course basic information</a></li><li class='active lecture tag_module1 tag_track_setup tag_track_julia tag_PlutoSliderServer tag_pluto'><a href='../../mod1_setup_website/working_locally/'><span class="entry-number">1.3</span> Working locally</a></li>
+<li class=' lecture tag_module1 tag_track_setup tag_teaching tag_repository_structure'><a href='../../mod1_setup_website/getting_started/'><span class="entry-number">1.1</span> Getting started</a></li><li class=' lecture tag_module1 tag_track_setup tag_teaching tag_metadata'><a href='../../mod1_setup_website/basic_info/'><span class="entry-number">1.2</span> Fill course basic information</a></li><li class=' lecture tag_module1 tag_track_setup tag_track_julia tag_PlutoSliderServer tag_pluto'><a href='../../mod1_setup_website/working_locally/'><span class="entry-number">1.3</span> Working locally</a></li>
 </ul>
 </li>
 <li>
@@ -102,7 +102,7 @@ window.pluto_preamble_html = undefined;
 <li>
 <h3>Module 4: ch02大气的基本特征</h3>
 <ul>
-<li class=' lecture tag_lecture tag_module4 tag_Bowen'><a href='../../mod4_Radiation/ch02_bowen_ratio/' title=''><span class="entry-number">4.1</span> Bowen Ratio</a></li><li class=' lecture tag_lecture tag_module4 tag_Radiation'><a href='../../mod4_Radiation/ch04_radiation/' title=''><span class="entry-number">4.2</span> Radiation</a></li>
+<li class=' lecture tag_lecture tag_module4 tag_Bowen'><a href='../../mod4_Radiation/ch02_bowen_ratio/' title=''><span class="entry-number">4.1</span> Bowen Ratio</a></li><li class='active lecture tag_lecture tag_module4 tag_Radiation'><a href='../../mod4_Radiation/ch04_radiation/' title=''><span class="entry-number">4.2</span> Radiation</a></li>
 </ul>
 </li>
 
@@ -127,21 +127,18 @@ window.pluto_preamble_html = undefined;
         </nav>
         <div id="pages-content">
            <div class="lecture-header" >
-    <p class="number">Section 1.3</p>
-    <h1>Working locally</h1>
+    <p class="number">Section 4.2</p>
+    <h1>Radiation</h1>
     
     
 </div>
-        <div class="pages-markdown">
-<main>
-<h2 id="working-locally"><a href="#working-locally" class="anchor"></a>Working locally</h2>
-<p>Open this repository in VS Code, and install the recommended extensions.</p>
-<p>To start running the development server, open the VS Code <em>command palette</em> (press <code>Cmd+Shift+P</code>), and search for <strong><code>Tasks: Run Task</code></strong>, then <strong><code>PlutoPages: run development server</code></strong>. The first run can take some time, as it builds up the notebook outputs cache. Leave it running.</p>
-<p>This will start two things in parallel: the PlutoPages.jl notebook (which generates the website), and a static file server (with Deno_jll). It will open two tabs in your browser: one is the generation dashboard (PlutoPages), the other is the current site preview (Deno_jll).</p>
-<p>Whenever you edit a file, PlutoPages will automatically regenerate! Refresh your browser tab. If it does not pick up the change, go to the generation dashboard and click the “Read input files again” button.</p>
-<p><strong>Note!</strong>: This workflow is recommended for writing static content, styles, and for site maintenance. But for writing Pluto notebooks, it’s best to prepare the notebook first, and then run the site (because it re-runs the entire notebook on any change).</p>
-</main>
-</div>
+        <pluto-editor 
+ statefile='../../generated_assets/ch04_radiation_e9b073d3.plutostate' 
+ notebookfile='../../generated_assets/ch04_radiation_ca717adb.jl' 
+
+
+	disable_ui
+></pluto-editor>
 
         <div class="page-foot">
             <div class="copyright">
