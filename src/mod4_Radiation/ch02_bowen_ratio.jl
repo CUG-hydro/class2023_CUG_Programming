@@ -9,7 +9,7 @@
 #> title = "Bowen Ratio"
 #> layout = "layout.jlhtml"
 #> description = ""
-#> tags = ["lecture", "module4", "Bowen"]
+#> tags = ["lecture", "ch02", "Bowen"]
 
 using Markdown
 using InteractiveUtils
